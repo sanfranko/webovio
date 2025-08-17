@@ -17,4 +17,55 @@ body {
     justify-content: space-between;
 
     margin-top: 25px;
+
+    position: relative;
+}
+
+.place {
+    background-image: url(./img/mainback.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-top: -72px;
+}
+
+.place__text {
+    position: absolute;
+    top: 188px;
+
+    max-width: 615px;
+}
+
+.place__text-mini {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.place__text-subtittle {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+
+    margin: 25px 0;
+}
+
+.place__text-tittle {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+    margin-bottom: 45px;
+}
+
+.yellow {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFD723;
 }
