@@ -8,7 +8,7 @@ body {
 
 
 .container {
-    max-width: 1575px;
+    max-width: 1375px;
     margin: auto;
 
 }
@@ -77,7 +77,7 @@ body {
 
 
 
-    margin-left: 165px;
+    margin-left: 265px;
     margin-top: -120px;
     margin-bottom: 120px;
 }
@@ -130,7 +130,6 @@ body {
     font-weight: 700;
     font-size: 16px;
     color: #D4D6D4;
-
 }
 
 
@@ -192,4 +191,71 @@ body {
     height: 1px;
     background: #21384218;
     margin: 150px 165px;
+}
+
+.project__awesome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 110px;
+}
+
+.project__subtittle {
+    width: 50vh;
+
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 37px;
+    color: #4D533C;
+}
+
+.project__tittle {
+    width: 50vh;
+
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #21384299;
+}
+
+.project__wall-left {
+    background-image: url(./img/card1.png);
+    background-size: cover;
+    background-position: center;
+    min-width: 735px;
+    min-height: 550px;
+
+
+}
+
+.project__wall {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+.project__text-subtittle {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 37px;
+    color: #4D533C;
+}
+
+.project__text-tittle {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #21384299;
+
+    margin: 25px 0 115px 0;
+}
+
+.projec__pers {
+    max-width: 453px;
+    max-height: 243px;
+    border-radius: 8px;
+
+    background-color: red
 }
