@@ -66,7 +66,7 @@ body {
 
 .yellow {
     font-family: Poppins;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
     color: #FFD723;
 }
@@ -336,4 +336,58 @@ body {
 
 .project__wall-left.card3 {
     background-image: url(./img/card3.png);
+}
+
+.deation__text {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+    color: #4D533C;
+
+    margin-bottom: 60px;
+}
+
+.deation__nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.deation__nav-list {
+    width: 255px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.deation__nav-subtittle {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #4D533C;
+
+    width: 183px;
+}
+
+.deation__nav-tittle {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #21384299;
+
+    width: 195px;
+
+    margin: 30px 0 30px 0;
+}
+
+.deation__nav-list a {
+    margin-top: auto;
+}
+
+.deation {
+    margin-bottom: 150px;
 }
