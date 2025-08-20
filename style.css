@@ -391,3 +391,25 @@ body {
 .deation {
     margin-bottom: 150px;
 }
+
+.make {
+    min-width: 100vh;
+    background-color: #FFFFFF;
+
+    margin-right: 265px;
+
+    box-shadow: 50px 130px 100px 0px rgba(0, 0, 0, 0.1459);
+}
+
+.make__text {
+    padding: 70px 0 70px 265px;
+}
+
+.make__subtittle {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 60px;
+    color: #4D533C;
+
+    margin-bottom: 50px;
+}
