@@ -125,6 +125,10 @@ body {
     margin-bottom: 40px;
 }
 
+.project__text-gray {
+    margin-top: 90px;
+}
+
 .gray {
     font-family: Poppins;
     font-weight: 700;
@@ -223,17 +227,22 @@ body {
     background-image: url(./img/card1.png);
     background-size: cover;
     background-position: center;
-    min-width: 735px;
-    min-height: 550px;
 
+    width: 100vh;
+    height: 70vh;
 
+    position: relative;
 }
 
 .project__wall {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    gap: 100px;
+    gap: 250px;
+
+}
+
+.project__text {
+    width: 410px;
 }
 
 .project__text-subtittle {
@@ -249,7 +258,7 @@ body {
     font-size: 16px;
     color: #21384299;
 
-    margin: 25px 0 115px 0;
+    margin: 25px 0 20px 0;
 }
 
 .projec__pers {
@@ -257,5 +266,55 @@ body {
     max-height: 243px;
     border-radius: 8px;
 
-    background-color: red
+    background-color: #FFFFFF;
+    box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1459);
+
+
+    position: relative;
+    top: 490px;
+    left: 525px;
+}
+
+.projec__pers-img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.projec__pers-pers {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 0 0 30px 30px;
+}
+
+.projec__pers-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.projec__pers-text {
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D533C;
+
+    padding: 30px 30px 25px 30px;
+}
+
+.projec__pers-subtittle {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    color: #4D533C;
+}
+
+.projec__pers-tittle {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: #152934;
 }
