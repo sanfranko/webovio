@@ -403,6 +403,7 @@ body {
 
 .make__text {
     padding: 70px 0 70px 265px;
+    margin-bottom: -190px;
 }
 
 .make__subtittle {
@@ -416,4 +417,28 @@ body {
 
 .footer {
     background-color: #4F553D;
+}
+
+.footer__contact {
+    display: flex;
+    gap: 140px;
+
+    padding-top: 310px;
+}
+
+.footer__contact p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #B6C197;
+}
+
+.footer__contact a {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+
+    text-decoration: none;
 }
