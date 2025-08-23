@@ -399,11 +399,14 @@ body {
     margin-right: 265px;
 
     box-shadow: 50px 130px 100px 0px rgba(0, 0, 0, 0.1459);
+
+    position: relative;
+    z-index: 2;
+    margin-bottom: -190px;
 }
 
 .make__text {
     padding: 70px 0 70px 265px;
-    margin-bottom: -190px;
 }
 
 .make__subtittle {
@@ -441,4 +444,73 @@ body {
     color: #FFFFFF;
 
     text-decoration: none;
+}
+
+.footer .divider {
+    margin: 50px 0 60px 0;
+    background-color: #5D6544;
+}
+
+.footer__main .divider {
+    width: 1px;
+    height: 210px;
+    background-color: #5D6544;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer__main-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__main-subbtitle {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-bottom: 25px;
+}
+
+.footer__main-block a {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+
+    color: #B6C197;
+    text-decoration: none;
+}
+
+.git a {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+
+    color: #B6C197;
+    text-decoration: none;
+}
+
+.footer__main-mail {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+
+    margin: 25px 0;
+}
+
+.footer__main-ikons {
+    display: flex;
+    gap: 15px;
 }
