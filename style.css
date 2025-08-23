@@ -514,3 +514,20 @@ body {
     display: flex;
     gap: 15px;
 }
+
+.footer__end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: -30px;
+    padding-bottom: 30px;
+}
+
+.footer__end-tittle {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #B5C096;
+}
